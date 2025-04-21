@@ -1,0 +1,1 @@
+{"uuid":"447d96f1-a5f3-4ce3-8f88-ffd1bc0e87ab","name":"automation.ShoppingTest.setUp","children":["5ca99b1d-fd66-4419-8b9e-512e53718616"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1744906629022,"stop":1744906630187}],"afters":[],"start":1744906629022,"stop":1744906630187}

@@ -1,0 +1,1 @@
+{"uuid":"5658dcfe-38e7-4c8a-acef-c2609a986c1e","name":"automation.EjercicioTests.setUp","children":["e5358748-2cc5-4e6a-94fc-74dade6aba7a"],"description":"","befores":[{"name":"setUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1744905200836,"stop":1744905201348}],"afters":[],"start":1744905200836,"stop":1744905201348}

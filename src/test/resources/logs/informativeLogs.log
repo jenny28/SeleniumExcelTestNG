@@ -1,0 +1,7 @@
+09:41:12.353 INFO  AUTOMATION - soy la precondición del padre
+09:41:15.746 INFO  AUTOMATION - Asignando implicit wait
+09:41:15.846 INFO  AUTOMATION - Navegando a la página
+09:41:18.328 INFO  AUTOMATION - digitar username locked_out_user: 
+09:41:18.464 INFO  AUTOMATION - digitar password secret_sauce: 
+09:41:18.556 INFO  AUTOMATION - clic
+09:41:18.690 INFO  AUTOMATION - Verificar el mensaje de error

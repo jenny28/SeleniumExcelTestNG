@@ -1,0 +1,26 @@
+09:41:12.353 INFO  AUTOMATION - soy la precondición del padre
+09:41:12.353 DEBUG AUTOMATION - Inicializando el driver
+09:41:15.699 DEBUG AUTOMATION - Maximizar el driver
+09:41:15.746 DEBUG AUTOMATION - Borrar cookies
+09:41:15.746 INFO  AUTOMATION - Asignando implicit wait
+09:41:15.762 DEBUG AUTOMATION - Guardando el driver
+09:41:15.846 INFO  AUTOMATION - Navegando a la página
+09:41:17.745 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /customXml/_rels/item1.xml.rels
+09:41:17.745 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /customXml/_rels/item2.xml.rels
+09:41:17.760 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /customXml/_rels/item3.xml.rels
+09:41:17.760 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:41:17.776 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+09:41:17.854 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:41:18.280 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+09:41:18.296 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /customXml/_rels/item1.xml.rels
+09:41:18.296 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /customXml/_rels/item2.xml.rels
+09:41:18.296 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /customXml/_rels/item3.xml.rels
+09:41:18.296 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+09:41:18.312 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet2.xml.rels
+09:41:18.312 DEBUG org.apache.poi.openxml4j.opc.PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+09:41:18.328 DEBUG org.apache.poi.openxml4j.opc.OPCPackage - The close() method is intended to SAVE a package. This package is open in READ ONLY mode, use the revert() method instead!
+09:41:18.328 INFO  AUTOMATION - digitar username locked_out_user: 
+09:41:18.464 INFO  AUTOMATION - digitar password secret_sauce: 
+09:41:18.556 INFO  AUTOMATION - clic
+09:41:18.690 INFO  AUTOMATION - Verificar el mensaje de error
+09:41:18.745 DEBUG AUTOMATION - Cerrar el padre
