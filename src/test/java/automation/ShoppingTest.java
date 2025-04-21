@@ -6,7 +6,7 @@ import page.LoginPage;
 import page.ShoppingPage;
 import page.TopBar;
 import utilities.BaseTest;
-import utilities.DataGiver;
+import utilities.CommonFlows;
 import utilities.ExcelReader;
 import utilities.Logs;
 
@@ -14,17 +14,11 @@ public class ShoppingTest extends BaseTest {
     private final LoginPage loginPage = new LoginPage();
     private final ShoppingPage shoppingPage = new ShoppingPage();
     private final TopBar topBar = new TopBar();
+    private final CommonFlows commonflows = new CommonFlows();
 
     @BeforeMethod
     public void setUp() {
-        final var credencialesValidas = DataGiver.obtenerCredencialesValidas();
-
-        Logs.info("Navegando a la página");
-        driver.get("https://www.saucedemo.com/");
-
-        loginPage.fillData(credencialesValidas.getUsername()
-                , credencialesValidas.getPassword()
-        );
+        commonflows.goToShoppingPage();
     }
 
     @Test

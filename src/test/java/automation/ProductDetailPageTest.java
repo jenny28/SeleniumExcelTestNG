@@ -6,8 +6,7 @@ import page.ItemDetailPage;
 import page.LoginPage;
 import page.ShoppingPage;
 import utilities.BaseTest;
-import utilities.DataGiver;
-import utilities.Logs;
+import utilities.CommonFlows;
 
 public class ProductDetailPageTest extends BaseTest {
 
@@ -15,19 +14,11 @@ public class ProductDetailPageTest extends BaseTest {
     private final LoginPage loginpage = new LoginPage();
     private final ShoppingPage shoppingPage = new ShoppingPage();
     private final ItemDetailPage itemDetailPage = new ItemDetailPage();
+    private final CommonFlows commonflows = new CommonFlows();
 
     @BeforeMethod
     public void setUp() {
-        final var credencialesValidas = DataGiver.obtenerCredencialesValidas();
-
-        Logs.info("Navegando a la página");
-        driver.get("https://www.saucedemo.com/");
-
-        loginpage.fillData(credencialesValidas.getUsername(),
-                credencialesValidas.getPassword());
-
-        Logs.info("hacer clic en la priemra imagen para navegar al detalle del producto");
-        shoppingPage.clickImage(0);
+        commonflows.goToItemDetail(0);
     }
 
     @Test
