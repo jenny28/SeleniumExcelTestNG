@@ -2,7 +2,6 @@ package automation;
 
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
-import page.LoginPage;
 import page.ShoppingPage;
 import page.TopBar;
 import utilities.BaseTest;
@@ -11,7 +10,7 @@ import utilities.ExcelReader;
 import utilities.Logs;
 
 public class ShoppingTest extends BaseTest {
-    private final LoginPage loginPage = new LoginPage();
+
     private final ShoppingPage shoppingPage = new ShoppingPage();
     private final TopBar topBar = new TopBar();
     private final CommonFlows commonflows = new CommonFlows();

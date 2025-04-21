@@ -12,7 +12,6 @@ public class ItemDetailPage extends BasePage {
     private final By btnAddToCart = By.id("add-to-cart");
     private final By imageDetail = By.className("inventory_details_img");
     private final By backToProduct = By.id("back-to-products");
-    private final By title = By.cssSelector("title");
 
     @Override
     public void verifyPage() {

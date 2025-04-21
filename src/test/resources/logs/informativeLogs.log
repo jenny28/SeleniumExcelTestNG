@@ -1,7 +1,20 @@
-09:41:12.353 INFO  AUTOMATION - soy la precondición del padre
-09:41:15.746 INFO  AUTOMATION - Asignando implicit wait
-09:41:15.846 INFO  AUTOMATION - Navegando a la página
-09:41:18.328 INFO  AUTOMATION - digitar username locked_out_user: 
-09:41:18.464 INFO  AUTOMATION - digitar password secret_sauce: 
-09:41:18.556 INFO  AUTOMATION - clic
-09:41:18.690 INFO  AUTOMATION - Verificar el mensaje de error
+11:22:54.220 INFO  AUTOMATION - soy la precondición del padre
+11:22:56.637 INFO  AUTOMATION - Asignando implicit wait
+11:22:56.760 INFO  AUTOMATION - Navegar a la página principal
+11:22:56.761 INFO  AUTOMATION - Navegando a la página
+11:22:58.374 INFO  AUTOMATION - digitar username : locked_out_user 
+11:22:58.515 INFO  AUTOMATION - digitar password : secret_sauce
+11:22:58.610 INFO  AUTOMATION - clic
+11:22:58.743 INFO  AUTOMATION - Verificar el mensaje de error
+11:22:59.045 INFO  AUTOMATION - soy la precondición del padre
+11:23:00.628 INFO  AUTOMATION - Asignando implicit wait
+11:23:00.634 INFO  AUTOMATION - Navegar a la página principal
+11:23:00.635 INFO  AUTOMATION - Navegando a la página
+11:23:01.503 INFO  AUTOMATION - digitar username : hola 
+11:23:01.658 INFO  AUTOMATION - digitar password : mundo
+11:23:01.770 INFO  AUTOMATION - clic
+11:23:01.910 INFO  AUTOMATION - Verificar el mensaje de error
+11:23:02.580 INFO  AUTOMATION - soy la precondición del padre
+11:23:03.960 INFO  AUTOMATION - Asignando implicit wait
+11:23:03.966 INFO  AUTOMATION - Navegar a la página principal
+11:23:03.967 INFO  AUTOMATION - Navegando a la página

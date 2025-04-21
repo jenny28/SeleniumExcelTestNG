@@ -3,7 +3,6 @@ package automation;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
 import page.ItemDetailPage;
-import page.LoginPage;
 import page.ShoppingPage;
 import utilities.BaseTest;
 import utilities.CommonFlows;
@@ -11,7 +10,6 @@ import utilities.CommonFlows;
 public class ProductDetailPageTest extends BaseTest {
 
     //private static final Logger log = LoggerFactory.getLogger(ProductDetailPageTest.class);
-    private final LoginPage loginpage = new LoginPage();
     private final ShoppingPage shoppingPage = new ShoppingPage();
     private final ItemDetailPage itemDetailPage = new ItemDetailPage();
     private final CommonFlows commonflows = new CommonFlows();
