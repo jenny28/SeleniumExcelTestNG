@@ -4,6 +4,7 @@ import modelos.Videojuego;
 import org.testng.Assert;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import principal.EjercicioExcel5;
 import utilities.BaseTest;
 import utilities.Logs;
@@ -13,6 +14,7 @@ import java.util.List;
 public class CuartoTest extends BaseTest {
 
     private List<Videojuego> listaVidegojuego;
+    final SoftAssert softAssert = new SoftAssert();
 
     @BeforeMethod
     public void setUp() {

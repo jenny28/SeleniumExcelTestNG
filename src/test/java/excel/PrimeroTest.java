@@ -5,6 +5,7 @@ import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
 import utilities.BaseTest;
 import utilities.Logs;
 import utilities.PrimerExcelReader;
@@ -14,6 +15,8 @@ import java.util.List;
 public class PrimeroTest extends BaseTest {
 
     private List<Monstruo> listamonstruo;
+    protected final SoftAssert softAssert = new SoftAssert();
+
 
     @BeforeMethod
     public void setUp() {
@@ -49,9 +52,9 @@ public class PrimeroTest extends BaseTest {
     public void cuartoTest() {
         final var monstruo = listamonstruo.get(listamonstruo.size() - 1);
 
-        Assert.assertEquals(monstruo.getNombre(), "Corominas");
-        Assert.assertEquals(monstruo.getEdad(), 1);
-        Assert.assertEquals(monstruo.getPeso(), 3.308595455);
+        softAssert.assertEquals(monstruo.getNombre(), "Corominas");
+        softAssert.assertEquals(monstruo.getEdad(), 1);
+        softAssert.assertEquals(monstruo.getPeso(), 3.308595455);
         softAssert.assertAll();// aca termina el bloque
     }
 
